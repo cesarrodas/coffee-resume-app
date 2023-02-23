@@ -1,0 +1,39 @@
+.Menu {
+  background-color: #99ca62;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.Menu-hidden {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.Menu-container {
+  padding: 2rem;
+  min-width: 30vw;
+  overflow-x: hidden;
+}
+
+.Menu-container > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Menu-container > ul > li {
+  margin: 2rem 1rem;
+  cursor: pointer;
+}
+
+.Menu-container > ul > li > a {
+  color: #f9f2dd;
+  font-size: 1.5rem;
+}
+
+.Menu-container > ul > li > a:hover {
+  color: #f9f2dd;
+}
+
+
+

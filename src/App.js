@@ -1,23 +1,27 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Menu from './components/menu/Menu';
+import Header from './components/header/Header';
+import Navbar from './components/navbar/Navbar';
+
 
 function App() {
+
+  const [showMenu, setShowMenu] = useState(true);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`App ${showMenu ? "App-open-menu" : ""}`}>
+      <Menu showMenu={showMenu} />
+      <div className="Content">
+        <Navbar toggleMenu={toggleMenu}></Navbar>
+        show : {showMenu? "true" : "false"}
+        <Header />
+      </div>
     </div>
   );
 }
