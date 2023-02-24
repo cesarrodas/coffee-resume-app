@@ -4,6 +4,9 @@ import './App.css';
 import Menu from './components/menu/Menu';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
+import Featured from './components/featured/Featured';
+import Footer from './components/footer/Footer';
+import ColdPress from './components/coldpress/Coldpress';
 
 
 function App() {
@@ -19,8 +22,10 @@ function App() {
       <Menu showMenu={showMenu} />
       <div className="Content">
         <Navbar toggleMenu={toggleMenu}></Navbar>
-        show : {showMenu? "true" : "false"}
         <Header />
+        <Featured />
+        <ColdPress />
+        <Footer />
       </div>
     </div>
   );

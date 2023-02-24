@@ -5,7 +5,7 @@ function Navbar({ toggleMenu }) {
 
   return (
     <div className="Navbar">
-      <div>
+      <div class="Navbar-item">
         {/* <ul class="Navbar-sandwich">
           <li></li>
           <li></li>
@@ -13,8 +13,10 @@ function Navbar({ toggleMenu }) {
         </ul> */}
         <button onClick={toggleMenu}>Menu</button>
       </div>
-      <a><img className="Navbar-logo" src={coffeelogo}></img></a>
-      <div></div>
+      <div class="Navbar-item">
+        <a><img className="Navbar-logo" src={coffeelogo}></img></a>
+      </div>
+      <div class="Navbar-item"></div>
     </div>
   );
 }

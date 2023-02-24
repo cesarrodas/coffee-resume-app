@@ -23,4 +23,5 @@ html, body {
 
 .Content {
   overflow-y: scroll;
+  overflow-x: hidden;
 }

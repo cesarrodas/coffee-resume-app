@@ -1,0 +1,20 @@
+.ColdPress {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+
+.ColdPress-item {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: gainsboro;
+}
+
+.ColdPress-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}

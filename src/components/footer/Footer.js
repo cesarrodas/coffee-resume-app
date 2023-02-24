@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './Footer.css';
+import coffeelogo from '../../coffeelogo.svg';
 
 function Footer() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="Footer">
+        <div>
+          <img className="Navbar-logo" src={coffeelogo}></img>
+        </div>
+        <div>
+          <h4>Helpful Links</h4>
+          <ul>
+            <li>Search</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Information</h4>
+          <ul>
+            <li>The Coffee Shop® | Carbon Negative Coffee | "You Drink Coffee, We Plant Trees" | All Rights Reserved</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Newsletter</h4>
+        </div>
+      </div>
+      <div className="Border"></div>
     </div>
   );
 }
