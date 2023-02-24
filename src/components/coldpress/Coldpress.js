@@ -5,10 +5,10 @@ function ColdPress() {
   return (
     <div className="ColdPress">
       <div className="ColdPress-item">
-        <div>
-          <h1>COLD PRESS ELIXIR</h1>
-          <p>A blend crafted perfectly for cold brewing.</p>
-          <button>Shop Now</button>
+        <div className="ColdPress-info">
+          <h1 className="ColdPress-title">COLD PRESS ELIXIR</h1>
+          <p className="ColdPress-text">A blend crafted perfectly for cold brewing.</p>
+          <button className="ColdPress-button">Shop Now</button>
         </div>
       </div>
       <div className="ColdPress-item">

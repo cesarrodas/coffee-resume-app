@@ -10,7 +10,7 @@ import coffeeTypeFive from '../../images/coffee-5.webp';
 function Featured() {
   return (
     <div className="Featured">
-      <h2>Featured</h2>
+      <h1 className="Featured-title">Featured Coffees</h1>
       <div className="Featured-cards">
         <Card 
           image={coffeeTypeOne}
@@ -33,6 +33,7 @@ function Featured() {
           title="Ethiopia Guji Artisan Series | Suke Quto | Fully Washed | Ligh…"
         />
       </div>
+      <button className="Featured-button">Shop Featured Coffees</button>
     </div>
   );
 }

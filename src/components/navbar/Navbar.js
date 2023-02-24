@@ -1,7 +1,7 @@
 import './Navbar.css';
 import coffeelogo from '../../coffeelogo.svg';
 
-function Navbar({ toggleMenu }) {
+function Navbar({ toggleMenu, scrollTop }) {
 
   return (
     <div className="Navbar">
@@ -14,7 +14,7 @@ function Navbar({ toggleMenu }) {
         <button onClick={toggleMenu}>Menu</button>
       </div>
       <div class="Navbar-item">
-        <a><img className="Navbar-logo" src={coffeelogo}></img></a>
+        <a><img className={`Navbar-logo ${ scrollTop > 30 ? "Navbar-small-logo" : ""}`} src={coffeelogo}></img></a>
       </div>
       <div class="Navbar-item"></div>
     </div>

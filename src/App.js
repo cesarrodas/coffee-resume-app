@@ -12,6 +12,11 @@ import ColdPress from './components/coldpress/Coldpress';
 function App() {
 
   const [showMenu, setShowMenu] = useState(true);
+  const [scrollTop, setScrollTop] = useState(0);
+
+  const handleScroll = (event) => {
+    setScrollTop(event.currentTarget.scrollTop);
+  };
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
@@ -20,8 +25,8 @@ function App() {
   return (
     <div className={`App ${showMenu ? "App-open-menu" : ""}`}>
       <Menu showMenu={showMenu} />
-      <div className="Content">
-        <Navbar toggleMenu={toggleMenu}></Navbar>
+      <div className="Content" onScroll={handleScroll}>
+        <Navbar toggleMenu={toggleMenu} scrollTop={scrollTop}></Navbar>
         <Header />
         <Featured />
         <ColdPress />

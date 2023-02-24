@@ -8,4 +8,19 @@
 .Featured-cards {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  padding: 2rem;
+}
+
+.Featured-title {
+  font-size: 30px;
+  color: #5C4033;
+}
+
+.Featured-button {
+  background-color: #99ca62;
+  color: #fff;
+  border: none;
+  padding: 16px 20px;
+  font-size: 20px;
+  cursor: pointer;
 }

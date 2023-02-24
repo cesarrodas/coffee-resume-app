@@ -2,6 +2,7 @@
   height: 100vh;
   position: relative;
   pointer-events: none;
+  text-align: center;
 }
 
 .Header-image {
@@ -13,4 +14,20 @@
   position: absolute;
   left: 0;
   top: 0;
+}
+
+.Header-info {
+  text-align: center;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+}
+
+.Header-title {
+  font-size: 50px;
+  color: #fff;
+  margin-top: 0;
+  width: 76vw;
+  padding-top: 10rem;
+  text-align: center;
 }

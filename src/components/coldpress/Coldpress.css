@@ -1,14 +1,15 @@
 .ColdPress {
   display: grid;
   grid-template-columns: 50% 50%;
-  width: 100%;
+  width: 100vw;
 }
 
 .ColdPress-item {
   padding: 0;
   margin: 0;
   height: 100vh;
-  background-color: gainsboro;
+  background-color: #2E2E2E;
+  text-align: left;
 }
 
 .ColdPress-image {
@@ -17,4 +18,27 @@
   object-fit: cover;
   padding: 0;
   margin: 0;
+}
+
+.ColdPress-info {
+  padding: 3rem;
+}
+
+.ColdPress-title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.ColdPress-text {
+  font-size: 20px;
+  color: #fff;
+}
+
+.ColdPress-button {
+  background-color: #99ca62;
+  color: #fff;
+  border: none;
+  padding: 16px 20px;
+  font-size: 20px;
+  cursor: pointer;
 }
