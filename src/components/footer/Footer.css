@@ -21,8 +21,40 @@
   margin-top: 2rem;
 }
 
+.Footer-Email {
+  background-color: #99ca62;
+  border: none;
+  border-bottom: solid 2px darkgreen;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 7rem;
+}
+
+.Footer-Email:focus {
+  outline: none;
+}
+
+.Footer-signup {
+  background-color: #99ca62;
+  border: none;
+  border-bottom: solid 2px darkgreen;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .Border {
   background-color: #f9f2dd;
-  height: 60px;
+  min-height: 60px;
+}
+
+.Border-text {
+  color: brown;
+  margin: 0;
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 

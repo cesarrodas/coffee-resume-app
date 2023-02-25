@@ -23,9 +23,13 @@ function Footer() {
         </div>
         <div className="Footer-box">
           <h4>Newsletter</h4>
+          <input className="Footer-Email" placeholder="Email Address"></input>
+          <button className="Footer-signup">></button>
         </div>
       </div>
-      <div className="Border"></div>
+      <div className="Border">
+        <p className="Border-text">© 2023, The Coffee Shop. </p>
+      </div>
     </div>
   );
 }

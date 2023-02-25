@@ -19,8 +19,10 @@
 .Header-info {
   text-align: center;
   width: 100vw;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .Header-title {
@@ -30,4 +32,22 @@
   width: 76vw;
   padding-top: 10rem;
   text-align: center;
+}
+
+.Header-description {
+  font-size: 20px;
+  color: #fff;
+  width: 50vw;
+  text-align: center;
+}
+
+.Header-button {
+  background-color: #99ca62;
+  color: #fff;
+  border: none;
+  padding: 16px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  align-self: center;
+  pointer-events: auto;
 }
