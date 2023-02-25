@@ -11,10 +11,6 @@
   width: 120px;
 }
 
-.Navbar-item > button{
-  pointer-events: auto;
-}
-
 .Navbar-logo {
   height: 120px;
   width: 120px;
@@ -23,4 +19,27 @@
 .Navbar-small-logo {
   width: 60px;
   height: 60px;
+}
+
+.Navbar-button {
+  width: 60px;
+  height: 60px;
+  background: transparent;
+  border: none;
+  pointer-events: auto;
+}
+
+.Navbar-sandwich {
+  list-style-type: none;
+  pointer-events: inherit;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Navbar-sandwich > li {
+  width: 60px;
+  height: 5px;
+  background-color: #99ca62;
+  pointer-events: inherit;
+  margin: 6px 0;
 }
