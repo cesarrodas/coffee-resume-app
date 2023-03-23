@@ -24,7 +24,7 @@ function Footer() {
         <div className="Footer-box">
           <h4>Newsletter</h4>
           <input className="Footer-Email" placeholder="Email Address"></input>
-          <button className="Footer-signup">></button>
+          <button className="Footer-signup"></button>
         </div>
       </div>
       <div className="Border">

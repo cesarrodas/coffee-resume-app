@@ -11,7 +11,7 @@
 
 .Menu-container {
   padding: 2rem;
-  min-width: 30vw;
+  min-width: 500px;
   overflow-x: hidden;
   position: relative;
 }
@@ -48,6 +48,11 @@
 }
 
 @media screen and (min-width: 900px) {
-
+  .Menu-container {
+    padding: 2rem;
+    min-width: 30vw;
+    overflow-x: hidden;
+    position: relative;
+  }
 }
 
