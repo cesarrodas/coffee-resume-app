@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className={`App ${showMenu ? "App-open-menu" : ""}`}>
-      <Menu showMenu={showMenu} />
+      <Menu showMenu={showMenu} toggleMenu={toggleMenu} />
       <div className="Content" onScroll={handleScroll}>
         <Navbar toggleMenu={toggleMenu} scrollTop={scrollTop}></Navbar>
         <Header />

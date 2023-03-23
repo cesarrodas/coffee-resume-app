@@ -13,6 +13,7 @@
   padding: 2rem;
   min-width: 30vw;
   overflow-x: hidden;
+  position: relative;
 }
 
 .Menu-container > ul {
@@ -35,5 +36,18 @@
   color: #f9f2dd;
 }
 
+.Menu-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 2rem;
+}
 
+@media screen and (min-width: 900px) {
+
+}
 

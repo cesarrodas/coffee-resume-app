@@ -17,11 +17,18 @@ html, body {
 }
 
 .App-open-menu {
-  grid-template-columns: 30vw 70vw;
+  grid-template-columns: 100vw 0vw;
   transition: grid-template-columns 0.5s ease-in-out;
 }
 
 .Content {
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+@media screen and (min-width: 900px) {
+  .App-open-menu {
+    grid-template-columns: 30vw 70vw;
+    transition: grid-template-columns 0.5s ease-in-out;
+  }
 }

@@ -1,6 +1,7 @@
 .ColdPress {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
   width: 100vw;
 }
 
@@ -41,4 +42,13 @@
   padding: 16px 20px;
   font-size: 20px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+  .ColdPress {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    width: 100vw;
+  }
 }

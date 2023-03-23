@@ -1,8 +1,9 @@
 .Footer {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-columns: 1fr;
   background-color: #99ca62;
-  height: 16rem;
+  height: auto;
   width: 100vw;
 }
 
@@ -58,3 +59,10 @@
   padding-left: 1rem;
 }
 
+@media screen and (min-width: 900px) {
+  .Footer {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr;
+    height: 16rem;
+  }
+}

@@ -1,9 +1,10 @@
 import './Menu.css';
 
-function Menu({ showMenu }) {
+function Menu({ showMenu, toggleMenu }) {
   return (
     <div className={`Menu ${ showMenu ? "" : "Menu-hidden" }`}>
       <div className="Menu-container">
+        <button class="Menu-close" onClick={toggleMenu}>X</button>
         <ul>
           <li><a>Shop Coffee</a></li>
           <li><a>Gear & Merchandise</a></li>

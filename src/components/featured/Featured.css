@@ -1,13 +1,14 @@
 .Featured {
-  height: 100vh;
+  height: auto;
   width: 100vw;
   overflow: hidden;
   background-color: #fff;
+  padding-bottom: 2rem;
 }
 
 .Featured-cards {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   padding: 2rem;
 }
 
@@ -23,4 +24,20 @@
   padding: 16px 20px;
   font-size: 20px;
   cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+
+  .Featured {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .Featured-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2rem;
+  }
 }

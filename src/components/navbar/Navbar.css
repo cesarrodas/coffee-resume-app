@@ -34,6 +34,7 @@
   pointer-events: inherit;
   display: inline-block;
   cursor: pointer;
+  padding: 0;
 }
 
 .Navbar-sandwich > li {
@@ -42,4 +43,10 @@
   background-color: #99ca62;
   pointer-events: inherit;
   margin: 6px 0;
+}
+
+@media screen and (min-width: 900px) {
+  .Navbar-sandwich {
+    padding-left: 40px;
+  }
 }
