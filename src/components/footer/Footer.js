@@ -3,7 +3,7 @@ import coffeelogo from '../../coffeelogo.svg';
 
 function Footer() {
   return (
-    <div>
+    <div class="container">
       <div className="Footer">
         <div className="Footer-box">
           <img className="Footer-logo" src={coffeelogo}></img>
@@ -27,8 +27,10 @@ function Footer() {
           <button className="Footer-signup"></button>
         </div>
       </div>
-      <div className="Border">
-        <p className="Border-text">© 2023, The Coffee Shop. </p>
+      <div className='Border-container'>
+        <div className="Border">
+          <p className="Border-text">© 2023, The Coffee Shop. </p>
+        </div>
       </div>
     </div>
   );

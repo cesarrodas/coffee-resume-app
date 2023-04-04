@@ -1,3 +1,8 @@
+.container {
+  background-color: #99ca62;
+  width: 100vw;
+}
+
 .Footer {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
@@ -5,6 +10,8 @@
   background-color: #99ca62;
   height: auto;
   width: 100vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .Footer-unordered {
@@ -23,6 +30,7 @@
   min-height: 10rem;
   width: 80%;
   margin: auto;
+  padding: 4rem 0;
 }
 
 .Footer-Email {
@@ -52,6 +60,8 @@
 .Border {
   background-color: #f9f2dd;
   min-height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .Border-text {
@@ -60,6 +70,10 @@
   text-align: left;
   padding-top: 1rem;
   padding-left: 1rem;
+}
+
+.Border-container {
+  background-color: #f9f2dd;
 }
 
 @media screen and (min-width: 900px) {
