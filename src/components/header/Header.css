@@ -51,6 +51,7 @@
   cursor: pointer;
   align-self: center;
   pointer-events: auto;
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 900px) {
@@ -59,5 +60,9 @@
     position: relative;
     pointer-events: none;
     text-align: center;
+  }
+
+  .Header-title {
+    padding-top: 14rem;
   }
 }

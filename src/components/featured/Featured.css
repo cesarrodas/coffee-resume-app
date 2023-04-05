@@ -29,7 +29,7 @@
 @media screen and (min-width: 900px) {
 
   .Featured {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     overflow: hidden;
     background-color: #fff;
@@ -39,5 +39,17 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding: 2rem;
+    margin: 5% auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  .Featured-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 2rem;
+    max-width: 80%;
+    margin: 5% auto;
   }
 }
