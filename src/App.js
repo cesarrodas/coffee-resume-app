@@ -11,7 +11,7 @@ import ColdPress from './components/coldpress/Coldpress';
 
 function App() {
 
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
   const [scrollTop, setScrollTop] = useState(0);
 
   const handleScroll = (event) => {
