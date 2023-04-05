@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 4012;
+const PORT = 4022;
 
 app.use(express.static('build'));
 

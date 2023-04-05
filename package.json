@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "node coffee_server.js"
+    "deploy": "pm2 start coffee_server.js"
   },
   "eslintConfig": {
     "extends": [
