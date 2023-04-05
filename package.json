@@ -24,7 +24,6 @@
       "react-app/jest"
     ]
   },
-  "homepage": "/coffee",
   "browserslist": {
     "production": [
       ">0.2%",
